@@ -1,6 +1,5 @@
 body {
   background-color: #f9f7fe;
-  font-family: "Playfair Display", serif;
   font-family: "Roboto", sans-serif;
 }
 a {
@@ -65,8 +64,8 @@ main {
   color: rgb(221, 94, 115);
 }
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-app-temperature-container {
@@ -75,8 +74,8 @@ main {
 
 .weather-app-temperature {
   font-size: 88px;
+  line-height: 88px;
   font-weight: bold;
-  margin-left: 10px;
 }
 
 .weather-app-unit {
