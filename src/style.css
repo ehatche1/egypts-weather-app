@@ -65,8 +65,8 @@ main {
   color: rgb(221, 94, 115);
 }
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-app-temperature-container {
