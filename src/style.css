@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 a {
-  color: rgb(169, 41, 169);
+  color: #9f3ad1;
 }
 
 .weather-app {
@@ -30,7 +30,7 @@ header {
 }
 
 .search-form-button {
-  background: plum;
+  background: #f65282;
   padding: 15px 30px;
   font-size: 16px;
   border: none;
@@ -93,8 +93,10 @@ footer {
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+
   color: #000;
 }
 
@@ -108,4 +110,5 @@ footer {
 
 .weather-forecast-temperature {
   font-size: 13px;
+  display: flex;
 }
