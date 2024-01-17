@@ -30,7 +30,7 @@ header {
 }
 
 .search-form-button {
-  background: #f65282;
+  background: skyblue;
   padding: 15px 30px;
   font-size: 16px;
   border: none;
@@ -111,4 +111,11 @@ footer {
 .weather-forecast-temperature {
   font-size: 13px;
   display: flex;
+  color: rgb(221, 94, 115);
+}
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
